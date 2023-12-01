@@ -9,9 +9,17 @@
     padding: 2rem;
     border: 1px solid blue;
     font-size: 2em;
+    width: 100px;
+    margin: 5px 2.5px ;
 }
 
 .container{
     display: flex;
     flex-direction: row;
+}
+
+.container .row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
